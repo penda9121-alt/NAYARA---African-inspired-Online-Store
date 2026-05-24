@@ -8,8 +8,6 @@ The goal of this project is to showcase and promote the culture, craftsmanship, 
 
 Each item reflects authentic African artistry, vibrant fabrics, unique designs, and cultural identity that are often underrepresented in mainstream stores.
 
----
-
 ## The Problem
 
 I chose this type of store because I frequently hear negative stereotypes about my countries that do not reflect reality. Through this project, I wanted to highlight the richness, creativity, elegance, and talent that exist within these cultures.
@@ -18,7 +16,6 @@ Many people believe that fashionable or high-quality products must come from abr
 
 I also wanted to create a platform that celebrates African culture in a modern and positive way while giving visibility to local craftsmanship and creativity.
 
----
 
 ## How I Came Up With the Idea
 
@@ -28,7 +25,6 @@ While brainstorming ideas for my web programming project, I realized I wanted to
 
 I also wanted to inspire younger generations, including my siblings, to feel proud of their heritage and traditions.
 
----
 
 ## Why These Products
 
@@ -38,7 +34,6 @@ These products perfectly embody African culture, traditions, and identity while 
 
 In addition, supporting these products means supporting local artisans and helping preserve traditional skills that have been passed down for generations.
 
----
 
 ## Challenges
 
@@ -55,7 +50,6 @@ I also faced challenges with:
 
 Through these challenges, I improved both my technical and problem-solving skills while learning how important organization and testing are in web development.
 
----
 
 ## What I Learned
 
@@ -70,7 +64,6 @@ Through this project, I strengthened my skills in:
 
 This project also helped me better understand how front-end technologies work together to create interactive and visually appealing web applications.
 
----
 
 ## Accomplishments
 
@@ -82,8 +75,6 @@ Some accomplishments I am proud of include:
 - Creating a project that reflects both my technical growth and cultural identity
 
 This project helped me become more confident in my web development and design abilities.
-
----
 
 ## Future Vision
 
@@ -101,7 +92,6 @@ Some future improvements I envision include:
 
 I would also love for Nayara to eventually become a real platform that promotes African designers, artisans, beauty products, and culture internationally while supporting local economies and creators.
 
----
 
 ## Technologies Used
 
@@ -110,8 +100,6 @@ I would also love for Nayara to eventually become a real platform that promotes 
 - JavaScript
 - LocalStorage
 - Bootstrap 5
-
----
 
 ## Author
 
