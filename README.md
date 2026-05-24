@@ -103,4 +103,4 @@ I would also love for Nayara to eventually become a real platform that promotes 
 
 ## Author
 
-Mariam Diop
+Mariam Penda Diop
