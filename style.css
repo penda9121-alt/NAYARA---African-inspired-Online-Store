@@ -1,0 +1,397 @@
+/*Student ID: 24635752
+Name: Mariam Diop
+File Name: style.css for project 2
+Description: styles for online store
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman" , serif;
+    margin: 0;
+    background-color: #f8f5f0;
+    color: #222222;
+    line-height: 1.6 ;
+}
+
+.logo {
+    background-color: #000000;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page-title h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+nav {
+    background-color: #d4af7a;
+    padding: 12px 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+    font-size: 0.85rem;
+    padding: 12px 24px;
+    border-radius: 25px;
+    background-color: #f3d59b;
+    margin: 8px;
+    display: inline-block;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: #111111;
+    color: #f3d59b;
+    transform: scale(1.08);
+}
+
+.hero {
+    background: linear-gradient(to right, #111111, #2b2b2b);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-text {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d4af7a;
+    color: #111111;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.buttoN:hover {
+    background-color: #c49b61;
+}
+
+.intro,
+.featured-products,
+.why-shop,
+.call-to-action,
+.page-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 35px auto;
+}
+
+.intro h2,
+.featured-products,
+.why-shop,
+.call-to-action,
+.content-box h2 {
+    color: #8a6333;
+    margin-bottom: 15px;
+}
+
+.intro,
+.call-to-action {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card,
+.small-card,
+.content-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+    width: 240px;
+    min-height: 220px;
+}
+
+.small-card {
+    width: 300px;
+}
+
+.card h3,
+.small-card h3 {
+    color: #8a6333;
+    margin-top: 0;
+}
+
+.content-box {
+    margin-bottom: 25px;
+}
+
+.about-list {
+    padding-left: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.submit-button {
+    margin-top: 18px;
+}
+
+footer {
+    background-color: #111111;
+    color: #f3d59b;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .card,
+    .small-card {
+        width: 100%;
+    }
+
+    .page-title h1 {
+        font-size: 1.8rem;
+    }
+}
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin-bottom: 10px;
+    color: #8a6333;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card select {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.product-card button {
+    background-color: #111111;
+    color: #f3d59b;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product-card button:hover {
+    background-color: #8a6333;
+    color: white;
+}
+
+/* ================= CART PAGE ================= */
+
+.cart-title {
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+
+#cart-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cart-item {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-info h3 {
+    color: #9c5c1c;
+    margin-bottom: 10px;
+}
+
+.cart-info button {
+    background-color: black;
+    color: #f4d38a;
+    border: none;
+    padding: 8px 13px;
+    border-radius: 20px;
+    margin-right: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart-info button:hover {
+    background-color: #d8b477;
+    color: black;
+}
+
+#cart-total {
+    text-align: center;
+    color: #f4d38a;
+    margin: 25px;
+}
+
+.empty-cart {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.cart-links {
+    text-align: center;
+}
+
+.cart-links a {
+    color: #f4d38a;
+    font-weight: bold;
+}
+
+.cart-actions {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cart-actions button {
+    background-color: #111111;
+    color: #f3d59b;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: 0.3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.cart-actions button:hover {
+    background-color: #8a6333;
+    color: white;
+    transform: scale(1.05);
+}
+
+.cart-actions a {
+    text-decoration: none;
+    background-color: #d4af7a;
+    color: #111111;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.cart-actions a:hover {
+    background-color: #111111;
+    color: #f3d59b;
+    transform: scale(1.05);
+}

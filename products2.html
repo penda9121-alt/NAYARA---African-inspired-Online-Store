@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mariam Penda Diop">
+    <meta name="description" content="page for Bags & Shoes for Nayara online store.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nayara | Bags & Shoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="top-bar">
+        <p>Welcome to Nayara - Elegance inspired by culture, shaped by identity</p>
+    </div>
+
+    <div class="page-title">
+        <h1>Bags & Shoes Collection</h1>
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products1.html">Clothes</a></li>
+            <li><a href="products2.html" class="active">Bags & Shoes</a></li>
+            <li><a href="products3.html">Jewelry & Bayas</a></li>
+            <li><a href="products4.html">Woussoulan & Beauty</a></li>
+            <li><a href="cart.html" class="nav-btn cart-btn">Cart 🛒</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<section class="products-container">
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags1.jpeg" alt="Traditional bag">
+        <h3>Adama</h3>
+        <p><strong>Product ID:</strong> BS01</p>
+        <p>Stylish handcrafted bag featuring vibrant African patterns.</p>
+        <p class="price">$85.00</p>
+
+        <label for="qty-adama">Quantity:</label>
+        <input type="number" id="qty-adama" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Adama', 85, 'Bags&Shoes/bags1.jpeg', 'qty-adama')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags2.jpeg" alt="Traditional bag">
+        <h3>Zhara</h3>
+        <p><strong>Product ID:</strong> BS02</p>
+        <p>Durable handbag designed for both fashion and everyday use.</p>
+        <p class="price">$95.00</p>
+
+        <label for="qty-zhara">Quantity:</label>
+        <input type="number" id="qty-zhara" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Zhara', 95, 'Bags&Shoes/bags2.jpeg', 'qty-zhara')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags3.jpeg" alt="Traditional bags">
+        <h3>Kente</h3>
+        <p><strong>Product ID:</strong> BS03</p>
+        <p>Handcrafted tote bag ideal for carrying essentials.</p>
+        <p class="price">$100.00</p>
+
+        <label for="qty-kente">Quantity:</label>
+        <input type="number" id="qty-kente" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Kente', 100, 'Bags&Shoes/bags3.jpeg', 'qty-kente')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags4.jpeg" alt="Traditional bags">
+        <h3>Ayo Classic Bag</h3>
+        <p><strong>Product ID:</strong> BS04</p>
+        <p>Unique bag with detailed patterns inspired by African culture.</p>
+        <p class="price">$95.00</p>
+
+        <label for="qty-ayo">Quantity:</label>
+        <input type="number" id="qty-ayo" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Ayo Classic Bag', 95, 'Bags&Shoes/bags4.jpeg', 'qty-ayo')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags5.jpeg" alt="African bags">
+        <h3>Ashanti</h3>
+        <p><strong>Product ID:</strong> BS05</p>
+        <p>Trendy bag perfect for completing any outfit.</p>
+        <p class="price">$90.00</p>
+
+        <label for="qty-ashanti">Quantity:</label>
+        <input type="number" id="qty-ashanti" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Ashanti', 90, 'Bags&Shoes/bags5.jpeg', 'qty-ashanti')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/bags6.jpg" alt="African bags">
+        <h3>Akhan</h3>
+        <p><strong>Product ID:</strong> BS06</p>
+        <p>Elegant purse combining tradition and modern design.</p>
+        <p class="price">$200.00</p>
+
+        <label for="qty-akhan">Quantity:</label>
+        <input type="number" id="qty-akhan" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Akhan', 200, 'Bags&Shoes/bags6.jpg', 'qty-akhan')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes1.jpeg" alt="African Shoes">
+        <h3>Malika</h3>
+        <p><strong>Product ID:</strong> BS07</p>
+        <p>Classic shoes designed for both comfort and durability.</p>
+        <p class="price">$85.00</p>
+
+        <label for="size-malika">Size:</label>
+        <select id="size-malika" name="size-malika">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-malika">Quantity:</label>
+        <input type="number" id="qty-malika" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Malika', 85, 'Bags&Shoes/shoes1.jpeg', 'qty-malika')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes2.jpeg" alt="African Shoes">
+        <h3>Binta</h3>
+        <p><strong>Product ID:</strong> BS08</p>
+        <p>Comfortable shoes made with quality materials for daily wear.</p>
+        <p class="price">$95.00</p>
+
+        <label for="size-binta">Size:</label>
+        <select id="size-binta" name="size-binta">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-binta">Quantity:</label>
+        <input type="number" id="qty-binta" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Binta', 95, 'Bags&Shoes/shoes2.jpeg', 'qty-binta')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes3.jpeg" alt="African Shoes">
+        <h3>Soumai</h3>
+        <p><strong>Product ID:</strong> BS09</p>
+        <p>Walk with elegance and confidence in these stylish shoes.</p>
+        <p class="price">$70.00</p>
+
+        <label for="size-soumai">Size:</label>
+        <select id="size-soumai" name="size-soumai">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-soumai">Quantity:</label>
+        <input type="number" id="qty-soumai" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Soumai', 70, 'Bags&Shoes/shoes3.jpeg', 'qty-soumai')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes4.jpeg" alt="African Shoes">
+        <h3>Awa</h3>
+        <p><strong>Product ID:</strong> BS10</p>
+        <p>Stylish shoes celebrating African identity and beauty.</p>
+        <p class="price">$100.00</p>
+
+        <label for="size-awa">Size:</label>
+        <select id="size-awa" name="size-awa">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-awa">Quantity:</label>
+        <input type="number" id="qty-awa" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Awa', 100, 'Bags&Shoes/shoes4.jpeg', 'qty-awa')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes5.jpeg" alt="African Shoes">
+        <h3>Lobo Shoes</h3>
+        <p><strong>Product ID:</strong> BS11</p>
+        <p>Soft and elegant design with a graceful silhouette.</p>
+        <p class="price">$75.00</p>
+
+        <label for="size-lobo-shoes">Size:</label>
+        <select id="size-lobo-shoes" name="size-lobo-shoes">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-lobo-shoes">Quantity:</label>
+        <input type="number" id="qty-lobo-shoes" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Lobo Shoes', 75, 'Bags&Shoes/shoes5.jpeg', 'qty-lobo-shoes')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Bags&Shoes/shoes6.jpeg" alt="African Shoes">
+        <h3>Salma</h3>
+        <p><strong>Product ID:</strong> BS12</p>
+        <p>Lightweight sandals designed for comfort and style.</p>
+        <p class="price">$90.00</p>
+
+        <label for="size-salma">Size:</label>
+        <select id="size-salma" name="size-salma">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+        </select>
+
+        <br>
+        <label for="qty-salma">Quantity:</label>
+        <input type="number" id="qty-salma" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Salma', 90, 'Bags&Shoes/shoes6.jpeg', 'qty-salma')">Add to Cart</button>
+    </div>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Nayara. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

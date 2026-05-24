@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mariam Penda Diop">
+    <meta name="description" content="Shopping cart page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayara | Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="Logo.png" alt="Nayara Logo">
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products1.html">Clothes</a></li>
+            <li><a href="products2.html">Bags & Shoes</a></li>
+            <li><a href="products3.html">Jewelry & Bayas</a></li>
+            <li><a href="products4.html">Woussoulan & Beauty</a></li>
+            <li><a href="cart.html" class="nav-btn cart-btn active">Cart 🛒</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1 class="cart-title">Shopping Cart</h1>
+
+    <div id="cart-items"></div>
+
+    <h2 id="cart-total">Total: $0.00</h2>
+
+    <div class="cart-actions">
+        <button type="button" onclick="clearCart()">Clear Cart</button>
+        <a href="products1.html">Continue Shopping</a>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Nayara. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

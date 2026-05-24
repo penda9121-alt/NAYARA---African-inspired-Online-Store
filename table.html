@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mariam Penda Diop">
+    <meta name="description" content="Assignment about Index Database API">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayara Products</title>
+</head>
+<body>
+
+<h2>All Products</h2>
+
+<button onclick="seedProducts()">Load Products</button>
+
+<select id="filter">
+    <option value="all">All</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Bags & Shoes">Bags & Shoes</option>
+    <option value="Jewelry & Bayas">Jewelry & Bayas</option>
+    <option value="Woussoulan & Beauty">Woussoulan & Beauty</option>
+</select>
+
+<table border="1">
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Image</th>
+<th>Category</th>
+<th>Price</th>
+</tr>
+</thead>
+
+<tbody id="tableBody"></tbody>
+</table>
+
+<script src="db.js"></script>
+<script src="seed.js"></script>
+
+<script>
+function loadTable(filter = "all") {
+    getProducts(function(products) {
+        const body = document.getElementById("tableBody");
+        body.innerHTML = "";
+
+        let filtered = products;
+
+        if (filter !== "all") {
+            filtered = products.filter(p => p.category === filter);
+        }
+
+        filtered.forEach(p => {
+            body.innerHTML += `
+                <tr>
+                    <td>${p.id}</td>
+                    <td>${p.name}</td>
+                    <td><img src="${p.image}" width="50"></td>
+                    <td>${p.category}</td>
+                    <td>$${p.price}</td>
+                </tr>
+            `;
+        });
+    });
+}
+
+document.getElementById("filter").addEventListener("change", function() {
+    loadTable(this.value);
+});
+
+setTimeout(loadTable, 500);
+</script>
+
+</body>
+</html>

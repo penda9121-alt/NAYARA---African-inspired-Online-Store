@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mariam Penda Diop">
+    <meta name="description" content="page for Woussoulan & Beauty for Nayara online store.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nayara | Woussoulan & Beauty Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="top-bar">
+        <p>Welcome to Nayara - Elegance inspired by culture, shaped by identity</p>
+    </div>
+
+    <div class="page-title">
+        <h1>Woussoulan & Beauty Collection</h1>
+    </div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products1.html">Clothes</a></li>
+            <li><a href="products2.html">Bags & Shoes</a></li>
+            <li><a href="products3.html">Jewelry & Bayas</a></li>
+            <li><a href="products4.html" class="active">Woussoulan & Beauty</a></li>
+            <li><a href="cart.html" class="nav-btn cart-btn">Cart 🛒</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<section class="products-container">
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP1.jpeg" alt="Traditional incense">
+        <h3>Zayna</h3>
+        <p><strong>Product ID:</strong> WB01</p>
+        <p>Handcrafted fabric bag featuring vibrant stripes and traditional West African patterns. Perfect for everyday elegance.</p>
+        <p class="price">$85.00</p>
+
+        <label for="qty-zayna">Quantity:</label>
+        <input type="number" id="qty-zayna" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Zayna', 85, 'Woussoulan&BeautyProducts/BP1.jpeg', 'qty-zayna')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP2.jpeg" alt="Traditional incense">
+        <h3>Penda</h3>
+        <p><strong>Product ID:</strong> WB02</p>
+        <p>Sleek and modern handbag with a textured finish and gold details, designed for a bold and sophisticated look.</p>
+        <p class="price">$25.00</p>
+
+        <label for="qty-penda">Quantity:</label>
+        <input type="number" id="qty-penda" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Penda', 25, 'Woussoulan&BeautyProducts/BP2.jpeg', 'qty-penda')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP3.jpeg" alt="Traditional incense">
+        <h3>Khady</h3>
+        <p><strong>Product ID:</strong> WB03</p>
+        <p>Stylish patterned bag inspired by African prints, combining culture and contemporary fashion.</p>
+        <p class="price">$30.00</p>
+
+        <label for="qty-khady">Quantity:</label>
+        <input type="number" id="qty-khady" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Khady', 30, 'Woussoulan&BeautyProducts/BP3.jpeg', 'qty-khady')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP4.jpeg" alt="Traditional incense">
+        <h3>Sokhna</h3>
+        <p><strong>Product ID:</strong> WB04</p>
+        <p>Classic and timeless product showcasing rich cultural craftsmanship.</p>
+        <p class="price">$20.00</p>
+
+        <label for="qty-sokhna">Quantity:</label>
+        <input type="number" id="qty-sokhna" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Sokhna', 20, 'Woussoulan&BeautyProducts/BP4.jpeg', 'qty-sokhna')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP5.jpeg" alt="Traditional incense">
+        <h3>Ndeye</h3>
+        <p><strong>Product ID:</strong> WB05</p>
+        <p>Graceful and comfortable piece blending tradition and modern elegance.</p>
+        <p class="price">$30.00</p>
+
+        <label for="qty-ndeye">Quantity:</label>
+        <input type="number" id="qty-ndeye" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Ndeye', 30, 'Woussoulan&BeautyProducts/BP5.jpeg', 'qty-ndeye')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP6.jpeg" alt="Traditional incense">
+        <h3>Astou</h3>
+        <p><strong>Product ID:</strong> WB06</p>
+        <p>Beautiful handmade piece with unique textures and soft flowing fabric.</p>
+        <p class="price">$20.00</p>
+
+        <label for="qty-astou">Quantity:</label>
+        <input type="number" id="qty-astou" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Astou', 20, 'Woussoulan&BeautyProducts/BP6.jpeg', 'qty-astou')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP7.jpeg" alt="Traditional incense">
+        <h3>Rama</h3>
+        <p><strong>Product ID:</strong> WB07</p>
+        <p>Simple and comfortable piece designed for everyday wear.</p>
+        <p class="price">$35.00</p>
+
+        <label for="qty-rama">Quantity:</label>
+        <input type="number" id="qty-rama" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Rama', 35, 'Woussoulan&BeautyProducts/BP7.jpeg', 'qty-rama')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP8.jpeg" alt="Traditional incense">
+        <h3>Fanta</h3>
+        <p><strong>Product ID:</strong> WB08</p>
+        <p>Your refined and elegant piece of culture.</p>
+        <p class="price">$35.00</p>
+
+        <label for="qty-fanta">Quantity:</label>
+        <input type="number" id="qty-fanta" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Fanta', 35, 'Woussoulan&BeautyProducts/BP8.jpeg', 'qty-fanta')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/BP9.jpg" alt="Traditional incense">
+        <h3>Kemy</h3>
+        <p><strong>Product ID:</strong> WB09</p>
+        <p>Traditional-inspired beauty product just for you.</p>
+        <p class="price">$20.00</p>
+
+        <label for="qty-kemy">Quantity:</label>
+        <input type="number" id="qty-kemy" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Kemy', 20, 'Woussoulan&BeautyProducts/BP9.jpg', 'qty-kemy')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/woussoulan1.jpg" alt="Traditional incense">
+        <h3>Eshe</h3>
+        <p><strong>Product ID:</strong> WB10</p>
+        <p>Your personalized piece of culture.</p>
+        <p class="price">$25.00</p>
+
+        <label for="qty-eshe">Quantity:</label>
+        <input type="number" id="qty-eshe" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Eshe', 25, 'Woussoulan&BeautyProducts/woussoulan1.jpg', 'qty-eshe')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/woussoulan3.jpg" alt="Traditional incense">
+        <h3>Sira</h3>
+        <p><strong>Product ID:</strong> WB11</p>
+        <p>Soft and elegant design with a graceful and feminine silhouette.</p>
+        <p class="price">$20.00</p>
+
+        <label for="qty-sira">Quantity:</label>
+        <input type="number" id="qty-sira" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Sira', 20, 'Woussoulan&BeautyProducts/woussoulan3.jpg', 'qty-sira')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/woussoulan4.jpg" alt="Traditional incense">
+        <h3>Dakar</h3>
+        <p><strong>Product ID:</strong> WB12</p>
+        <p>Unique and artistic incense to elevate your spiritual practice.</p>
+        <p class="price">$20.00</p>
+
+        <label for="qty-dakar">Quantity:</label>
+        <input type="number" id="qty-dakar" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Dakar', 20, 'Woussoulan&BeautyProducts/woussoulan4.jpg', 'qty-dakar')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/woussoulan5.jpg" alt="Traditional incense">
+        <h3>Djeneba</h3>
+        <p><strong>Product ID:</strong> WB13</p>
+        <p>Traditional incense crafted to enhance femininity and confidence.</p>
+        <p class="price">$30.00</p>
+
+        <label for="qty-djeneba">Quantity:</label>
+        <input type="number" id="qty-djeneba" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Djeneba', 30, 'Woussoulan&BeautyProducts/woussoulan5.jpg', 'qty-djeneba')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="Woussoulan&BeautyProducts/woussoulan6.jpg" alt="Traditional incense">
+        <h3>Ouaga</h3>
+        <p><strong>Product ID:</strong> WB14</p>
+        <p>Traditional incense designed to create a serene and uplifting atmosphere.</p>
+        <p class="price">$30.00</p>
+
+        <label for="qty-ouaga">Quantity:</label>
+        <input type="number" id="qty-ouaga" value="1" min="1">
+        <br>
+        <button type="button" onclick="addToCartWithQty('Ouaga', 30, 'Woussoulan&BeautyProducts/woussoulan6.jpg', 'qty-ouaga')">Add to Cart</button>
+    </div>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Nayara. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

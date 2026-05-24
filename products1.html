@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mariam Penda Diop">
+        <meta name="description" content="page for cloths for Nayara online store.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Nayara | Clothes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="top-bar">
+            <p>Welcome to Nayara - Elegance inspired by culture, shaped by identity</p>
+            </div>
+
+            <div class="page-title">
+            <h1>Clothes Collection</h1>
+            </div>
+
+            <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products1.html" class="active">Clothes</a></li>
+                <li><a href="products2.html">Bags & Shoes</a></li>
+                <li><a href="products3.html">Jewelry & Bayas</a></li>
+                <li><a href="products4.html">Woussoulan & Beauty</a></li>
+                <li><a href="cart.html" class="nav-btn cart-btn">Cart 🛒</a></li>
+            </ul>
+            </nav>
+            </header>
+
+            <main>
+            <section class="products-container">
+
+
+                <div class="product-card">
+                    <img src="clothes/clothes1.jpg" alt="Traditional dress">
+                    
+                    <h3>Amina</h3>
+            <p><strong>Product ID:</strong> C001</p>
+            <p>Elegant traditional dress with warm tones and flowing silhouette inspired by West African heritage.</p>
+            <p class="price">$45.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-amina" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Amina', 45, 'clothes/clothes1.jpg', 'qty-amina')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes2.jpg" alt="Modern African outfit">
+            <h3>Zuri</h3>
+            <p><strong>Product ID:</strong> C002</p>
+            <p>Modern and stylish dress combining simplicity with bold African patterns. </p>
+            <p class="price">$75.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-zuri" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Zuri', 75, 'clothes/clothes2.jpg', 'qty-zuri')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes3.jpg" alt="Modern African outfit">
+            <h3>Nala</h3>
+            <p><strong>Product ID:</strong> C003</p>
+            <p>Vibrant and feminine design perfect for special occasions and celebrations. </p>
+            <p class="price">$55.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-nala" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Nala', 55, 'clothes/clothes3.jpg', 'qty-nala')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes4.jpg" alt="Modern African outfit">
+            <h3>Fatou</h3>
+            <p><strong>Product ID:</strong> C004</p>
+            <p>Classic and timeless dress showcasing rich cultural craftmanship. </p>
+            <p class="price">$55.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-fatou" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Fatou', 55, 'clothes/clothes4.jpg', 'qty-fatou')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes5.jpg" alt="Modern African outfit">
+            <h3>Aissatou</h3>
+            <p><strong>Product ID:</strong> C005</p>
+            <p>Graceful and comfortable outfit blending tradition and modern elegance.. </p>
+            <p class="price">$65.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-aissatou" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Aissatou', 65, 'clothes/clothes5.jpg', 'qty-aissatou')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes6.jpg" alt="Modern African outfit">
+            <h3>Mariama</h3>
+            <p><strong>Product ID:</strong> C006</p>
+            <p>Beautiful handmade piece with unique textures and soft flowing fabric. </p>
+            <p class="price">$60.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-mariama" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Mariama', 60, 'clothes/clothes6.jpg', 'qty-mariama')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes7.jpg" alt="Modern African outfit">
+            <h3>Quaillah</h3>
+            <p><strong>Product ID:</strong> C007</p>
+            <p>Bold and eye-catching dress designed to highlight confidence and style. </p>
+            <p class="price">$85.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-quaillah" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Quaillah', 85, 'clothes/clothes7.jpg', 'qty-quaillah')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes8.jpg" alt="Modern African outfit">
+            <h3>Nara</h3>
+            <p><strong>Product ID:</strong> C008</p>
+            <p>Refined and elegant dress with delicate details and a luxurious feel. </p>
+            <p class="price">$95.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-nara" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Nara', 95, 'clothes/clothes8.jpg', 'qty-nara')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes9.jpg" alt="Modern African outfit">
+            <h3>Safiya</h3>
+            <p><strong>Product ID:</strong> C009</p>
+            <p>Traditional-inspired outfit with a modern twist, perfect for any occasion. </p>
+            <p class="price">$70.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-safiya" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Safiya', 70, 'clothes/clothes9.jpg', 'qty-safiya')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes10.jpg" alt="Modern African outfit">
+            <h3>Badji</h3>
+            <p><strong>Product ID:</strong> C0010</p>
+            <p>Stylish and vibrant dress celebrating African identity and beauty. </p>
+            <p class="price">$100.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-badji" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Badji', 100, 'clothes/clothes10.jpg', 'qty-badji')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes11.jpg" alt="Modern African outfit">
+            <h3>Coumba</h3>
+            <p><strong>Product ID:</strong> C0011</p>
+            <p>SOft and elegant design with a graceful and feminine silhouette. </p>
+            <p class="price">75.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-coumba" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Coumba', 75, 'clothes/clothes11.jpg', 'qty-coumba')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+            <img src="clothes/clothes12.jpg" alt="Modern African outfit">
+            <h3>Lobo</h3>
+            <p><strong>Product ID:</strong> C0012</p>
+            <p>Unique and artistic piece reflecting culture, creativity, and tradition. </p>
+            <p class="price">$90.00</p>
+
+            <label for="size2">Size:</label>
+            <select id="size2" name="size2">
+            <option>X-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>X-Large</option>
+            <option>XX-Large</option>
+            </select>
+
+            <br>
+            <label>Quantity:</label>
+            <input type="number" id="qty-lobo" value="1" min="1">
+            <br>
+            <button type="button" onclick="addToCartWithQty('Lobo', 90, 'clothes/clothes12.jpg', 'qty-lobo')">
+                Add to Cart
+            </button>
+            
+            </div>
+
+            </section>
+            </main>
+
+            <footer>
+            <p>&copy; 2026 Nayara. All rights reserved.</p>
+            </footer>
+            
+            
+           <script src="seed.js"></script>
+           <script src="cart.js"></script>
+    
+    </body>
+</html>
